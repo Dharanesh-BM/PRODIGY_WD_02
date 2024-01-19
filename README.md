@@ -19,7 +19,7 @@ Welcome to the Stopwatch Web Application project! This project leverages HTML, C
 ## Getting Started:
 
 1. Clone the repository to your local machine.
-2. Open the HTML file in your preferred web browser to access the stopwatch web application.
+2. Open the index.html file in your preferred web browser to access the stopwatch web application.
 
 ## Usage:
 
