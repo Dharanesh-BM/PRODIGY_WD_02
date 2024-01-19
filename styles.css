@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    font-family: 'Aclonica', sans-serif;
+    background-color: aliceblue;
+    color: white;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4; 
+    background-image: url('bg3.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#datetime {
+    font-size: 2em;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 50px;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#stopwatch-container {
+    margin-bottom: 20px;
+}
+
+#stopwatch {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+button {
+    align-self: center;
+    display: inline-block; /* Keep buttons on the same line */
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+button:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+
+button:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+#lapTimes-container {
+    max-height: 300px; /* Set your desired max height for lap times container */
+    overflow-y: auto; /* Add vertical scrollbar if lap times exceed max height */
+}
+
+#lapTimes {
+    font-size: 1.2em;
+    color: white;
+}
+
+#credit {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #8f8f8f; 
+    padding: 10px; 
+    text-align: center; 
+    color: white;
+}
+
